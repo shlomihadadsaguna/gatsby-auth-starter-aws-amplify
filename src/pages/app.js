@@ -13,6 +13,7 @@ const App = () => (
     <Router>
       <PrivateRoute path="/app/home" component={Home} />
       <PrivateRoute path="/app/profile" component={Details} />
+      <PrivateRoute path="/app/files" component={Files} />  
       <Login path="/app/login" />
       <SignUp path="/app/signup" />
     </Router>
